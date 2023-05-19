@@ -1,0 +1,37 @@
+nav{
+    height:40px;
+    border:1px solid;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin-bottom: 20px;
+}
+slider{
+    height:190px;
+    border:1px solid;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:0px solid;
+    display:flex;
+    height: 80px;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-between;
+}
+section{
+    border:1px solid;
+    display: flex;
+    width:49%;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height:100px;
+    border:1px solid;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    margin-top: 20px;
+}

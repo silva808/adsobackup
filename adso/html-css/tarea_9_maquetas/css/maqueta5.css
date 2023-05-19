@@ -1,0 +1,49 @@
+header{
+    border: solid 1px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+nav{
+    display:flex;
+    border:1px solid;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.container{
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+}
+article,slider{
+    display:flex;
+    border:1px solid;
+    height:300px;
+    width:27%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+slider{
+    width:40%;
+}
+section{
+    display:flex;
+    border:1px solid;
+    height:90px;
+    width:49%;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    border: solid 1px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}

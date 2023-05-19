@@ -1,0 +1,41 @@
+header{
+    height:75px;
+    border:1px solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+slider{
+    border:1px solid;
+    height:270px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    border: solid 1px;
+    height: 200px;
+    margin-top:20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+article{
+    display: flex;
+    height: 80%;
+    width:90%;
+    border:solid 1px;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 10px;
+}
+footer{
+    height:75px;
+    border:1px solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}

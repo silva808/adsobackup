@@ -1,0 +1,64 @@
+header{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.container{
+    border: 1px solid;
+    height: 480px;
+}
+menu{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 20px;
+}
+slider{
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin:20px;
+    margin-bottom: 10px;
+}
+.conta{
+    border: 0px solid;
+    height: 25%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+article{
+    border:1px solid;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+    width: 70%;
+    margin:20px;
+    margin-bottom: 0px;
+    display: inline-flex;
+}
+aside{
+    border:1px solid;
+    height:60%;
+    width: 30%;
+    margin:20px;
+    margin-bottom: 0px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 20px;
+}
