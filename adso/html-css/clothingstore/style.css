@@ -1,0 +1,90 @@
+*{
+    /* background-color: rgb(252, 249, 249); */
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+    height:55px;
+    /* border: solid red 1px; */
+}
+.header h2{
+    color: rgb(245, 241, 241);
+    font-family: Roboto, sans-serif;
+    font-size: 14pt;
+    padding-left: 10px;
+}
+.header .navigation{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header .navigation li{
+    display: inline-block;
+    padding: 15px;
+    transition: all 0.3s;
+}
+.header .navigation div{
+    border: solid 1px;
+    color: rgb(245, 241, 241);
+    display: inline-block;
+    transition: all 0.3s;
+}
+.header .navigation a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: Roboto, sans-serif;
+}
+.banner{
+    display: flex;
+    width:100%;
+    height:250px;
+    justify-content: center;
+    align-items: center;
+    background: url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.upperbanner{
+    position: absolute;
+    width:100%;
+    height:250px;
+    background: rgba(0, 0, 0, 0.596);
+}
+.bannertext{
+    font-family: Montserrat, Arial;
+    font-weight: 600;
+    color: rgb(245, 241, 241);
+    z-index: 1;
+}
+.gender{
+    /* border: solid 1px red; */
+    display:flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.gender p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contgender{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px green; */
+    align-items: center;
+    justify-self: center;
+}
+.genderimg{
+    /* border: solid black 1px; */
+    height: 250px;
+    width: 600px; 
+}
